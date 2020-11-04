@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>my first website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="#home">home</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#about">about</a></li>
+            <li class="topnav-right"><a href="#signup">sign up</a></li>
+            <li class="topnav-right"><a href="#signin">sign in</a></li>
+            <li class="dropdownbox"><a href="javascript: void(0);" onclick="dropdownmenu()">&#x2630;</a></li>
+        
+        </ul>
+        </nav>
+    <div class="container" id="gradient-1">
+        <div class="row">
+            <div class="col-6">
+               <div class="leftside-col">
+                   <h1 class="large">Hotel simara</h1>
+                   <h1 class="large">Where you find all enjoyment!!!</h1>
+                </div> 
+                <form>
+                    <div class="leftside-col">
+                        <h2>Username:</h2>
+                        <input class="inputbox" type="text" placeholder="Username" name="username">
+                        <h2>Password:</h2>
+                        <input class="inputbox" type="text" placeholder="Password" name="Password">
+                    </div>
+                </form>
+            </div>
+            
+             <div class="col-6">
+                 <div class="rightside-col">
+                     <div class="vediocontainer">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/EgeqKqwebZI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                 </div>
+                
+            </div>
+        
+        </div>
+        
+        
+    </div>
+    <header>
+        <h1 class="standardheader"> THE STANDARD OF AWESOMENESS</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="everesticon.jpg">
+                    </div>
+                    <label>Nepali cuisine</label>
+                    <p>Nepalese cuisine comprises a variety of cuisines based upon ethnicity, soil and climate relating to Nepal's cultural diversity and geography. Dal-bhat-tarkari (Nepali: दाल भात तरकारी) is eaten throughout Nepal.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="everesticon.jpg">
+                    </div>
+                    <label>Nepali festible</label>
+                    <p>Nepalese cuisine comprises a variety of cuisines based upon ethnicity, soil and climate relating to Nepal's cultural diversity and geography. Dal-bhat-tarkari (Nepali: दाल भात तरकारी) is eaten throughout Nepal.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="everesticon.jpg">
+                    </div>
+                    <label>Nepali culture</label>
+                    <p>Nepalese cuisine comprises a variety of cuisines based upon ethnicity, soil and climate relating to Nepal's cultural diversity and geography. Dal-bhat-tarkari (Nepali: दाल भात तरकारी) is eaten throughout Nepal.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="learnmore">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Nepal, country of Asia, lying along the southern slopes of the Himalayan mountain ranges. It is a landlocked country located between India to the east, south, and west and the Tibet Autonomous Region of China to the north. Its territory extends roughly 500 miles (800 kilometres) from east to west and 90 to 150 miles from north to south. The capital is Kathmandu.</p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="nepalicon">
+                    <img src="Nepal.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="last">
+        <div class="row">
+            <div class="col-3 mobileview">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            
+            
+            </div>
+            <div class="col-3 mobileview">
+                <h1>Products</h1>
+                <ul>
+                    <li>Computer</li>
+                    <li>Iphones</li>
+                    <li>Samsung</li>
+                </ul>
+            
+            
+            </div>
+            <div class="col-3 mobileview">
+                <h1>Places</h1>
+                <ul>
+                    <li>Pokhara</li>
+                    <li>Hetauda</li>
+                    <li>Illam</li>
+                </ul>
+            
+            
+            </div>
+            <div class="col-3 mobileview">
+                <h1>Suppot</h1>
+                <ul>
+                    <li>Help</li>
+                    <li>QA</li>
+                    <li>Contact</li>
+                </ul>
+            
+            
+            </div>
+        </div>
+    </footer>
+        
+    <script>
+        function dropdownmenu(){
+            var x= document.getElementById("dropdownclick");
+            if (x.className == "topnav"){
+                x.className += " responsive";
+            }
+            /*change class name to topnav.responsive*/
+            else{
+                x.className="topnav";
+            }
+        }    
+    </script>
+    
+    
+    </body>
+</html>
